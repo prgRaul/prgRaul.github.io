@@ -161,4 +161,10 @@
 
   window.addEventListener("load", initSwiper);
 
+window.addEventListener('load', function () {
+    document.querySelectorAll('.isotope-layout .isotope-container').forEach(container => {
+        let iso = Isotope.data(container);
+        if (iso) iso.layout();
+    });
+});
 })();
