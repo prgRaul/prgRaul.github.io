@@ -114,7 +114,7 @@
               <h3>Project information</h3>
               <ul>
                 <li><strong>Category</strong>: Video Game Demo</li>
-                <li><strong>Members</strong>: A group of 7 programmers, 7 artists and 2 designers.</li>
+                <li><strong>Members</strong>: Watermill Studios, ESAT, Berklee</li>
                 <li><strong>Project date</strong>: September 2023 - July 2024</li>
                 <li><strong>Project URL</strong>: <a href="https://store.steampowered.com/app/2999260/Low_Batt/"><img src="assets/images/steam.png" alt="Steam" width="30" height="30"></a></li>
               </ul>
@@ -132,15 +132,22 @@ Step into the thrilling world of Low Batt, a heart-pounding Top Down Shooter tha
 
     </section><!-- /Portfolio Details Section -->
 
+    <h2 class="text-center mb-4 feature-title">Awards</h2>
+    <p class="text-center">GDWC Hobby Game finalist</p>
+    <a href="https://thegdwc.com/blog/blog.php?blog_id=349"><img src="assets/images/award_gwdc.png" style="display: block; margin: auto;"></a>
+
     <div class="container mt-5">
       <div class="row justify-content-center">
           <div class="col-lg-10">
+<br><br>
               <h2 class="text-center mb-4 feature-title">My contribution</h2>
-              <h3 class="text-center mb-4 feature-title">Enemies</h2>
-
               <div class="feature-card p-4" data-aos="fade-up">
                   <h4>Minions</h4>
-                  <p></p>
+                  <p>
+                    Their objective is chase and disrupt the player.<br>
+                    Works in groups to surround the player.<br>
+                    Executes melee attacks when in range.
+                  </p>
                   <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
                     <source src="assets/video/lowbatt/minions.mp4" type="video/mp4">
                 </video>
@@ -148,7 +155,10 @@ Step into the thrilling world of Low Batt, a heart-pounding Top Down Shooter tha
 
               <div class="feature-card p-4" data-aos="fade-up">
                 <h4>AI Perception</h4>
-                <p></p>
+                <p>
+                  Detects the player using sight and hearing.<br>
+                  Once detected, enemies abandon their patrol and start chasing the player.
+                </p>
                 <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
                   <source src="assets/video/lowbatt/perception.mp4" type="video/mp4">
               </video>
@@ -156,7 +166,10 @@ Step into the thrilling world of Low Batt, a heart-pounding Top Down Shooter tha
 
             <div class="feature-card p-4" data-aos="fade-up">
               <h4>Patrol</h4>
-              <p></p>
+              <p>
+                Follows predefined patrol points in a cyclic route.<br>
+                Can also move randomly instead of following a set path.
+              </p>
               <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
                 <source src="assets/video/lowbatt/patrol.mp4" type="video/mp4">
             </video>
@@ -164,7 +177,10 @@ Step into the thrilling world of Low Batt, a heart-pounding Top Down Shooter tha
 
             <div class="feature-card p-4" data-aos="fade-up">
               <h4>Chase behavior</h4>
-              <p> </p>
+              <p> Based on the Kung Fu Circle design theory.<br>
+                Enemies attempt to surround the player while blocking escape routes.<br>
+                Prevents enemies from clustering too tightly, allowing for dynamic gameplay.
+              </p>
               <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
                 <source src="assets/video/lowbatt/kungfu.mp4" type="video/mp4">
             </video>
@@ -172,7 +188,8 @@ Step into the thrilling world of Low Batt, a heart-pounding Top Down Shooter tha
 
           <div class="feature-card p-4" data-aos="fade-up">
             <h4>Melee attack</h4>
-            <p></p>
+            <p>Enemies attempt a melee attack when close enough.<br>
+              A successful hit pushes the player backward.</p>
             <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
               <source src="assets/video/lowbatt/melee_attack.mp4" type="video/mp4">
           </video>
@@ -180,25 +197,24 @@ Step into the thrilling world of Low Batt, a heart-pounding Top Down Shooter tha
 
         <div class="feature-card p-4" data-aos="fade-up">
           <h4>Enemy death</h4>
-          <p> </p>
+          <p> Spawns a particle effect upon enemy death.<br>
+            Enemies enter ragdoll mode for a dynamic visual impact.<br>
+            After a short time, they blend out and disappear.</p>
           <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
             <source src="assets/video/lowbatt/melee_death.mp4" type="video/mp4">
         </video>
       </div>
-
-      <h3 class="text-center mb-4 feature-title">Pickups</h2>
         <div class="feature-card p-4" data-aos="fade-up">
           <h4>Pickup boxes</h4>
-          <p></p>
+          <p>Uses Unreal Engine Chaos for realistic destruction.<br>
+            Breaks into shards upon impact.<br>
+            Spawns a pickup item when destroyed.<br>
+            Shards gradually blend out and disappear over time.</p>
           <video autoplay loop muted playsinline width="70%" style="display: block; margin: auto;">
             <source src="assets/video/lowbatt/box.mp4" type="video/mp4">
         </video>
       </div>
 
-      <h3 class="text-center mb-4 feature-title">Extra</h2>
-
-          </div>
-      </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
   <script>
