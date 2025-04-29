@@ -419,11 +419,12 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 120px 0;
-  text-align: center;
-  position: relative;
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .page-title h1 {
